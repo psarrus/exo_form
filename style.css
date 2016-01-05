@@ -15,7 +15,7 @@
    clear: both;
  }
 
- #form1 section {
+ #form1 section, #form4 section {
    width: 400px;
    padding: 20px;
  }
@@ -195,4 +195,51 @@
   color: white;
   padding: 6px 12px 6px 12px;
   margin: 10px 0 0 140px;
+}
+
+#form4 h1 {
+  text-align: center;
+}
+
+#form4 fieldset {
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#form4 legend {
+  color: #CACACA;
+  margin-left: 10px;
+}
+
+#form4 input {
+  border: 0;
+  width: 100%;
+  padding: 0 10px 0 10px;
+  margin-bottom: 5px;
+}
+
+#form4 .dir {
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background-color: #F3F3F3;
+  color: #CACACA;
+  font-size: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#form4 div {
+  text-align: center;
+  margin-top: 35px;
+}
+
+#form4 a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #4636FF;
+  color: white;
+  padding: 6px 12px 6px 12px;
 }
